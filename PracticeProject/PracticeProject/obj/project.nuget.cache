@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SGZKvLRC7XKfb+e7uRVMQKMOHpGGmiH502hjo4FGhMuBsE/VgN1uXOzN0GuMJL8OOMbISWB7PxUpxcDaHBy+1g==",
+  "dgSpecHash": "FG19IFz6DdRvPMryTmE9GSZra1wkmR9VlCsJSlNOra1OIs+bo44gwEb8F+c0ozJ4aep2nRjMctKEuhaGBV/ptg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\haris\\OneDrive\\Desktop\\Web\\PracticeProject\\PracticeProject\\PracticeProject.csproj",
+  "projectFilePath": "C:\\Users\\haris\\Music\\AspDotNet\\PracticeProject\\PracticeProject\\PracticeProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\haris\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\haris\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
