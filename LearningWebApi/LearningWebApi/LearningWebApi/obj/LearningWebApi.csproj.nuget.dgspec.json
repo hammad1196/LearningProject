@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haris\\OneDrive\\Desktop\\Web\\LearningWebApi\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj": {}
+    "C:\\Users\\haris\\Documents\\AspDotNet\\LearningWebApi\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haris\\OneDrive\\Desktop\\Web\\LearningWebApi\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj": {
+    "C:\\Users\\haris\\Documents\\AspDotNet\\LearningWebApi\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haris\\OneDrive\\Desktop\\Web\\LearningWebApi\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\haris\\Documents\\AspDotNet\\LearningWebApi\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj",
         "projectName": "LearningWebApi",
-        "projectPath": "C:\\Users\\haris\\OneDrive\\Desktop\\Web\\LearningWebApi\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj",
+        "projectPath": "C:\\Users\\haris\\Documents\\AspDotNet\\LearningWebApi\\LearningWebApi\\LearningWebApi\\LearningWebApi.csproj",
         "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haris\\OneDrive\\Desktop\\Web\\LearningWebApi\\LearningWebApi\\LearningWebApi\\obj\\",
+        "outputPath": "C:\\Users\\haris\\Documents\\AspDotNet\\LearningWebApi\\LearningWebApi\\LearningWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\haris\\AppData\\Roaming\\NuGet\\NuGet.Config",

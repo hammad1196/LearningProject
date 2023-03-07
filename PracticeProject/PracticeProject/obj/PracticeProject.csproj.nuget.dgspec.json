@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haris\\Music\\AspDotNet\\PracticeProject\\PracticeProject\\PracticeProject.csproj": {}
+    "C:\\Users\\haris\\Documents\\AspDotNet\\PracticeProject\\PracticeProject\\PracticeProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haris\\Music\\AspDotNet\\PracticeProject\\PracticeProject\\PracticeProject.csproj": {
+    "C:\\Users\\haris\\Documents\\AspDotNet\\PracticeProject\\PracticeProject\\PracticeProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haris\\Music\\AspDotNet\\PracticeProject\\PracticeProject\\PracticeProject.csproj",
+        "projectUniqueName": "C:\\Users\\haris\\Documents\\AspDotNet\\PracticeProject\\PracticeProject\\PracticeProject.csproj",
         "projectName": "PracticeProject",
-        "projectPath": "C:\\Users\\haris\\Music\\AspDotNet\\PracticeProject\\PracticeProject\\PracticeProject.csproj",
+        "projectPath": "C:\\Users\\haris\\Documents\\AspDotNet\\PracticeProject\\PracticeProject\\PracticeProject.csproj",
         "packagesPath": "C:\\Users\\haris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haris\\Music\\AspDotNet\\PracticeProject\\PracticeProject\\obj\\",
+        "outputPath": "C:\\Users\\haris\\Documents\\AspDotNet\\PracticeProject\\PracticeProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\haris\\AppData\\Roaming\\NuGet\\NuGet.Config",
