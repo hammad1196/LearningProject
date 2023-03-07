@@ -64,7 +64,6 @@ namespace PracticeProject.Controllers
             return View(employees);
         }
 
-
         public IActionResult Create()
         {
             return View();
@@ -93,6 +92,7 @@ namespace PracticeProject.Controllers
             }
 
         }
+
         [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -127,6 +127,7 @@ namespace PracticeProject.Controllers
 
             return View(current_employee);
         }
+
         [HttpPost]
         public async Task<IActionResult> Update([FromForm] Employee employee)
         {
