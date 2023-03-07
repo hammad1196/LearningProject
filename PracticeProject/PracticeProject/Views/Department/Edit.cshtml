@@ -1,0 +1,39 @@
+﻿@model PracticeProject.Models.Department
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="container-fluid">
+    <h4>Edit Department</h4>
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Update">
+                <div asp-validation-summary="ModelOnly" class=""></div>
+                <div class="m-md-1">
+                    <label asp-for="Id" ></label>
+                    <br />
+                    <input asp-for="Id" class="col-md-10" value="@Model.Id" />
+                    <span asp-validation-for="Id"></span>
+                </div>
+                <br />
+                <div class="m-md-1">
+                    <label asp-for="Department_Name" ></label>
+                    <br />
+                    <input asp-for="Department_Name" class="col-md-10" value="@Model.Department_Name" />
+                    <span asp-validation-for="Department_Name"></span>
+                </div>
+                <br />
+                <div class="m-md-1 mt-1">
+                    <input type="submit" value="Save" class="button create-button" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="m-md-1 text-center">
+        <input asp-action="Display" value="Show List" type="submit" class="button list-button"/>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

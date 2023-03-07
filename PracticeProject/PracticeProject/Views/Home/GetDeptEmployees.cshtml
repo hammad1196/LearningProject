@@ -1,0 +1,48 @@
+﻿@model IEnumerable<PracticeProject.Models.Employee>
+
+@{
+    ViewData["Title"] = "Department Employees";
+}
+<table class="table th">
+    <thead>
+        <tr>
+            <th class="col-md-1">
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th class="col-md-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th class="col-md-30">
+                @Html.DisplayNameFor(model => model.Department)
+            </th>
+            <th class="col-md-2">
+                @Html.DisplayNameFor(model => model.Designation)
+            </th>
+            <th class="col-md-2">
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Department)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Designation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Salary)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

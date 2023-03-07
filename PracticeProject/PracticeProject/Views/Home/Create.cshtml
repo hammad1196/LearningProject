@@ -1,0 +1,60 @@
+﻿@model PracticeProject.Models.Employee
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="container-fluid">
+    <h3 class="m-md-1">Create Employee</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <div>
+                <img src="~/css/form.jpg" style="height: 450px" />
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div style="margin-top: 10px">
+                <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="Create">
+                    <p class="m-md-1">Please Enter Your Details</p>
+                    <br />
+                    <div asp-validation-summary="ModelOnly"></div>
+                    <div class="m-md-1">
+                        <label asp-for="Name">Full Name</label>
+                        <br />
+                        <input asp-for="Name" placeholder="ex: Luis Perez" class="col-md-10" />
+                        <span asp-validation-for="Name"></span>
+                    </div>
+                    <br />
+                    <div class="m-md-1">
+                        <label asp-for="Designation">Designation</label>
+                        <br />
+                        <input asp-for="Designation" class="col-md-10" />
+                        <span asp-validation-for="Designation"></span>
+                    </div>
+                    <br />
+                    <div class="m-md-1">
+                        <label asp-for="Department">Department</label>
+                        <br />
+                        <input asp-for="Department" class="col-md-10" />
+                        <span asp-validation-for="Department"></span>
+                    </div>
+                    <br />
+                    <div class="m-md-1">
+                        <label asp-for="Salary">Salary</label>
+                        <br />
+                        <input asp-for="Salary" class="col-md-10" />
+                        <span asp-validation-for="Salary"></span>
+                    </div>
+                    <div class="form-group">
+                        <br />
+                        <input type="submit" value="Create" class="button col-md-10 create-button"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center mt-3">
+    <input type="button" asp-action="Index" value="Back To List" class="button list-button"/>
+    @*<a asp-action="Index">Back to List</a>*@
+</div>
