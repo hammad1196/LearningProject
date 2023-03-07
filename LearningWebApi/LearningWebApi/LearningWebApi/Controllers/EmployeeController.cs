@@ -15,7 +15,7 @@ namespace LearningWebApi.Controllers
     public class EmployeeController : ControllerBase
     {
         private readonly LearningWebContext dc;
-        public EmployeeController(LearningWebContext dc)
+s        public EmployeeController(LearningWebContext dc)
         {
             this.dc = dc;
         }
@@ -34,7 +34,6 @@ namespace LearningWebApi.Controllers
 
         }
 
-        //Add Records
         [HttpPost("addEmployee")]
         public async Task<IActionResult> AddEmployee([FromBody] Employee model)
         {
@@ -54,6 +53,7 @@ namespace LearningWebApi.Controllers
 
             return await GetEmployeeById(id);
         }
+
         [HttpDelete("DeleteEmployee")]
         public IActionResult DeleteEmployee(int? id)
         {
@@ -66,6 +66,7 @@ namespace LearningWebApi.Controllers
             dc.SaveChanges();
             return Ok();
         }
+
         [HttpPut("EditEmployee")]
         public IActionResult Edit([FromBody] Employee employee)
         {
@@ -84,6 +85,7 @@ namespace LearningWebApi.Controllers
             }
             return NotFound();
         }
+
         [HttpGet("GetDeptEmployees")]
         public IActionResult GetEmployeesByDept(string department_name)
         {
